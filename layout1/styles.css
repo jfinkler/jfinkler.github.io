@@ -1,0 +1,68 @@
+/* Note that for this layout I did not need to specify height anywhere. */
+
+* { 
+    margin:0px;
+    padding:0px;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  color: #ddd;
+}
+
+.clearfix {
+  overflow: hidden;
+}
+
+header {
+  background-color: blue;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+main {
+  background-color: purple;
+  width: 60%;
+}
+
+section {
+    padding: 25px 25px;
+}
+
+aside {
+  background-color: #36BDBD;
+  width: 40%;
+}
+
+main, aside {
+  float: left;
+}
+
+.main {
+  background-color:#36BDBD;
+}
+
+footer {
+  background-color: #E04343;
+}
+
+p {
+  margin: 15px 0;
+}
+
+img.kitten {
+  float: left;
+  margin: 0 5px 5px 0;
+  border: 2px solid pink;
+}
