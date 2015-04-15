@@ -1,0 +1,25 @@
+body {
+	background-color: olivedrab;
+}
+p {
+	color: #000;
+}
+
+h1 {
+	font-size: 60px;
+	padding: 50px;
+}
+
+strong {
+	color: pink;
+
+}
+
+img {
+	float: right;
+}
+
+em {
+	font-size: 24px;
+	color: peachpuff;
+}
