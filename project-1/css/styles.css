@@ -1,0 +1,17 @@
+body {
+	background-color: OliveDrab;
+}
+
+h1 {
+	color: #696969;
+}
+
+div p {
+	color: red;
+	line-height: 38px;
+}
+
+p {
+	color: yellow;
+	line-height: 38px;
+}
