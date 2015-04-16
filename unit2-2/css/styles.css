@@ -1,0 +1,21 @@
+body {
+	background-color: OliveDrab;
+	font-size: 18px;
+}
+h1 {
+	color: blue;
+	font-size: 44px;
+	padding-left: 60px;
+}
+
+p {
+	color: #999;
+	line-height: 24px;
+	font-family: sans-serif;
+
+}
+
+h3 {
+	color: red;
+}
+
