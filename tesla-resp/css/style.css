@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-image: url(../images/colors.jpg);
+	background-color: #22ddcc;
+	color: #0a413b;
+	font-size: 100%;
+	font-family: Futura, Helvetica, sans-serif;
+}
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+	border: .5em solid #0a413b;
+}
+header {
+	background-color: #09b3a1;
+}
+header img {
+	margin: 0 auto;
+	display: block;
+	padding: 1em;
+	width: 30%;
+}
+img {
+	max-width: 100%;
+}
+h2 {
+	color: #0a413b;
+	font-size: 2em;
+	font-family: Georgia, serif;
+}
+nav {
+	background-color: #0d6057;
+	padding: 1em;
+	text-align: center;
+}
+nav a {
+	padding: 2em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+nav a:hover {
+	color: #22ffcc;
+}
+p {
+	margin-top: 1em;
+}
+.content {
+	width: 60%;
+	float: left;
+	padding: 1.2em;
+}
+aside {
+	width: 30%;
+	float: left;
+	padding: 1.2em;
+	color: #85f9ed;
+	margin-top: 2em;
+}
+.row1 {
+	width: 100%;
+	clear: both;
+
+}
+.col2 {
+	width: 30%;
+	padding: .8em;
+	float: left;
+}
+.col3 {
+	width: 30%;
+	padding: .8em;
+	float: left;
+}
+.col4 {
+	width: 30%;
+	padding: .8em;
+	float: left;
+}
+
+footer {
+	background-color: #0a413b;
+	text-align: center;
+	padding: 1.3em;
+	color: #85f9ed;
+	clear: both;
+}
+
+@media screen and (max-width: 840px) {
+    
+body {
+     font-size: 14px;
+    }
+nav a {
+	display: block;
+    padding: .7em;
+}
+nav a:hover {
+	color: #22ffcc;
+	background-color: #09b3a1;
+}
+header img {
+	margin: 0 auto;
+	display: block;
+	width: 30%;
+}
+.content {
+    width: auto;
+	float: none;
+}
+aside {
+	width: auto;
+	float: none;
+	margin-top: 0em;
+}
+
+.col2 {
+	width: auto;
+	float: none;
+}
+.col3 {
+	width: auto;
+	float: none;
+}
+.col4 {
+	width: auto;
+	float: none;
+}
+}
+
+
+
+@media screen and (max-width: 520px) {
+    
+body {
+        background-image: none;
+        background-color: #09b3a1;
+        font-size: 12px;
+    }
+nav a {
+	display: block;
+	padding: .5em;
+
+}
+nav a:hover {
+	color: #fff;
+	background-color: #09b3a1;
+}
+header img {
+	margin: 0 auto;
+	display: block;
+	width: 30%;
+}
+.content {
+    width: auto;
+	float: none;
+	padding: .6em;
+}
+aside {
+	width: auto;
+	float: none;
+	padding: .6em;
+	margin-top: .3em;
+}
+
+.col2 {
+	width: auto;
+	float: none;
+}
+.col3 {
+	width: auto;
+	float: none;
+	
+}
+.col4 {
+	display: none;
+}
+
+}
